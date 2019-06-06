@@ -848,7 +848,7 @@ input, select, textarea {
 
 		input[type="checkbox"].color2 + label:before,
 		input[type="radio"].color2 + label:before {
-			color: #e37b7c;
+			color: #ffffff;
 		}
 
 		input[type="checkbox"].color3 + label:before,
@@ -1438,7 +1438,7 @@ input, select, textarea {
 		}
 
 		ul.contact-icons.color2 > li:before {
-			color: #e37b7c;
+			color: #ffffff;
 		}
 
 		ul.contact-icons.color3 > li:before {
@@ -3234,7 +3234,7 @@ input, select, textarea {
 
 			.panel.color2 {
 				background-size: 128px 128px, auto;
-				background-color: #e37b7c;
+				background-color: #ffffff;
 			}
 
 			.panel.color3 {
