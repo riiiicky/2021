@@ -2253,7 +2253,7 @@ input, select, textarea {
 
 			.panel > *.color2 {
 				background-size: 128px 128px, auto;
-				background-color: #ffffff;
+				background-color: #ffffff; 
 			}
 
 			.panel > *.color3 {
@@ -2765,7 +2765,7 @@ input, select, textarea {
 
 		.panel.color2 {
 			background-size: 128px 128px, auto;
-			background-color: #ffffff;
+			background-color: #ffffff; !important
 		}
 
 		.panel.color3 {
