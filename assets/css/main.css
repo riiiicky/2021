@@ -87,10 +87,6 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-.major {
-	color: black;
-}
-
 mark {
 	background-color: transparent;
 	color: inherit;
