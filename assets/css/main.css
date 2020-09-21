@@ -1,7 +1,8 @@
-@import url(font-awesome.min.css);
-/* <style>
-  @import url("https://use.typekit.net/riz4bmf.css");
-</style> */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif !important; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif !important; }
+}
 
 .gallery .image.filtered:after {
 	content: "";
@@ -326,8 +327,6 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #333333;
-		/* font-family: "Acumin", Helvetica, sans-serif !important; */
-		font-family: acumin-pro, sans-serif;
 		font-weight: 300;
 		font-size: 0.9rem;
 		/* font-weight: 200; */
@@ -349,9 +348,14 @@ input, select, textarea {
 			color: #fdd62c;
 		}
 		
-	strong, b {
-		color:#333333;
+	b {
+		color:#505050;
 		font-weight: 700;
+	}
+
+	strong {
+		color:#505050;
+		font-weight: 500;
 	}
 
 	em, i {
