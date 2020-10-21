@@ -400,10 +400,9 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom: dotted 1px;
 			color: #fdd62c;
 			font-style:italic;
-			font-weight: 500;
+			font-weight: 400;
 		}
 		
 	b {
@@ -1825,7 +1824,7 @@ input, select, textarea {
 		}
 
 		.button.primary.color2.contact-button {
-			background-color:#c4c4c4; !important;
+			background-color:#095aba; !important;
 			color: white !important;
 		}
 

@@ -912,7 +912,8 @@ hr {
 }
 
 .btn_right {
-	float: right
+	float: right;
+
 }
 
 .btn_right:hover {
@@ -921,20 +922,22 @@ hr {
 
 .mybtn_wenzi {
 	cursor: pointer!important;
-	background-color: #707070;
 	border-radius: 8px;
+	background-color: #023FA6;
 	min-height: 22px;
-	width: 142px;
+	width: 200px;
 	height: 40px;
-	color: #fff;
+	color:#ffffff;
 	line-height: 40px;
 	text-align: center;
-	font-size: 14px
-	font-weight: 800;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: underline;
 }
 
 .mybtn_wenzi:hover {
 	background-color: #fdd62c;
+	color:#ffffff;
 }
 
 .socialicon {
