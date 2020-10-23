@@ -134,6 +134,7 @@ h7 {
 	}
 }
 
+
 @media (max-width:767px) {
 	body {
 		min-width: 100%
@@ -935,6 +936,8 @@ hr {
 	text-decoration: underline;
 }
 
+
+
 .mybtn_wenzi:hover {
 	background-color: #fdd62c;
 	color:#ffffff;
@@ -945,5 +948,9 @@ hr {
 	padding: 2px
 }
 
-
-
+@media only screen and (max-width: 480px) {
+	.mybtn_wenzi {
+	  width: 160px;
+	  font-size: 12px;
+	}
+	 }

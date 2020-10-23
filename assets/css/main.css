@@ -995,6 +995,17 @@ input, select, textarea {
 
 /* Image */
 
+#covid_img {
+	border: 4px solid #58b370;
+   }
+   
+   #adobe_img {
+	border: 4px solid #fb0f01;
+   }
+   
+   #boring_img {
+	border: 4px solid #ffb90c;
+   }
 	.image {
 		display: inline-block;
 		position: relative;
